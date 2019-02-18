@@ -1,0 +1,46 @@
+body {
+	background: linear-gradient(to right, #e77096 , #87499f);
+}
+
+.container {
+	padding-top: 20px;
+}
+
+#navigasi{
+	color: #fff;
+	font-family: Arial;
+	word-spacing: 20px;
+	margin-left: 100px;
+	padding-left: 20px;
+}
+
+#navigasi a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#navigasi a:hover {
+	color: #fff569;
+	transition: all .3s ease;
+}
+
+a#link-active {
+	color: #fff569;
+}
+
+h1,h4,small {
+	color: white;
+	font-family: inherit;
+}
+
+.btn {
+	border-color:rgb(249, 119, 148);
+	background-color: rgb(249, 119, 148);
+	border: none;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 18px 35px;
+}

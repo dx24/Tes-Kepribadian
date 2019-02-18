@@ -1,0 +1,48 @@
+body {
+	position: relative;	
+	height: 100vh;
+}
+
+.quiz {
+	display: none;
+}
+
+#semangat {
+	background: linear-gradient(to right,#e77096 , #87499f);
+}
+
+.box1 {
+	background-color: #ffffff;
+	padding: 50px;
+	width: 1000px;
+	padding-top: 100px;
+	margin: auto;
+	border-radius: 20px;
+	text-align: justify;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.border {
+	border-radius: 20px;
+	padding: 20px;
+}
+
+#posisi {
+	float: right;
+}
+
+#loader {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #9b59b6;
+	border:1px solid #8e44ad;
+	color: #ffffff;
+	font-size: 12px;
+	padding: 10px 20px 10px 20px;
+	z-index: 1;
+	box-shadow: 0px 0px 10px #8e44ad;
+	display: none;
+}

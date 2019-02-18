@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tes Kepribadian</title>
+	<link rel="stylesheet" type="text/css" href="plugin/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="plugin/fontawesome/css/fontawesome-all.min.css">
+	<link rel="stylesheet" type="text/css" href="css/tes.css">
+</head>
+<body>
+	<input type="hidden" id="answer-content"/>
+		<div id="loader">
+				<i class="fas fa-spinner fa-spin"></i>
+				loading...
+		</div>
+	<div class="container">
+		<h1>Tes Kepribadian</h1>
+		<hr>
+		<span id="s1" class="badge badge-light">Langkah 1</span>
+		<span id="s2" class="badge badge-light">Langkah 2</span>
+		<span id="s3" class="badge badge-light">Langkah 3</span>
+		<span id="s4" class="badge badge-light">Langkah 4</span>
+		<br>
+		<br>
+		<div id="q1" class="quiz">
+			<div class="row">
+				<div class="col-md-6 col-sm-6">
+					<div class="card">
+						<div class="card-body">
+							<big>Saya agak ramah, membuka hati dan saya suka berada bersama-sama dengan orang lain.
+							<br>
+							<br>
+							<button data-value="a" class="btn btn-danger"><i class="fas fa-play"></i>Hal ini berlaku untuk saya</button>
+							</big>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-6">
+					<div class="card">
+						<div class="card-body">
+							<big>Saya membutuhkan banyak waktu untuk sendirian dan agak hati-hati untuk memulai hubungan baru.
+							<br>
+							<br>
+							<button data-value="b" class="btn btn-danger"><i class="fas fa-play"></i>Hal ini berlaku untuk saya</button>
+							</big>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="q2" class="quiz">
+			<div class="row">
+				<div class="col-md-6 col-sm-6">
+					<div class="card">
+						<div class="card-body">
+							<big>Saya lebih suka bekerja praktis, menghasilkan hasil yang nyata.
+							<br>
+							<br>
+							<button data-value="a" class="btn btn-danger"><i class="fas fa-play"></i>Hal ini berlaku untuk saya</button>
+							</big>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-6">
+					<div class="card">
+						<div class="card-body">
+							<big>Saya lebih suka bekerja secara teori, mengembangkan ide-ide dan konsep baru.
+							<br>
+							<br>
+							<button data-value="b" class="btn btn-danger"><i class="fas fa-play"></i>Hal ini berlaku untuk saya</button>
+							</big>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="q3" class="quiz">
+			<div class="row">
+				<div class="col-md-6 col-sm-6">
+					<div class="card">
+						<div class="card-body">
+							<big>
+								Saya pintar dalam hal analisis dan logika dan ketika saya ragu, saya membiarkan diri saya dipandu oleh otak saya.
+								<br>
+								<br>
+								<button data-value="a" class="btn btn-danger"><i class="fas fa-play"></i>Hal ini berlaku untuk saya
+								</button>
+							</big>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-6">
+					<div class="card">
+						<div class="card-body">
+							<big>
+								Saya sangat sensitif dan emosional dan bila ragu, aku membiarkan diriku dibimbing oleh hati saya.
+								<br>
+								<br>
+								<button data-value="b" class="btn btn-danger"><i class="fas fa-play"></i>Hal ini berlaku untuk saya
+								</button>
+							</big>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="q4" class="quiz">
+			<div class="row">
+				<div class="col-md-6 col-sm-6">
+					<div class="card">
+						<div class="card-body">
+							<big>Saya orang yang fleksibel dan spontan, kadang-kadang agak kacau.
+							<br>
+							<br>
+							<button data-value="a" class="btn btn-danger"><i class="fas fa-play"></i>Hal ini berlaku untuk saya
+							</button>
+							</big>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-6">
+					<div class="card">
+						<div class="card-body">
+							<big>Saya orang yang handal dan terorganisir dengan baik. Saya lebih memilih untuk merencanakan masa depan.
+							<br>
+							<br>
+							<button data-value="b" class="btn btn-danger"><i class="fas fa-play"></i>Hal ini berlaku untuk saya
+							</button>
+							</big>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="plugin/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="js/core.js"></script>
+</body>
+</html>
